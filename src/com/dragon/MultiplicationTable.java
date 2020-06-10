@@ -12,13 +12,14 @@ public class MultiplicationTable {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int size = sc.nextInt();
+        int startNumber = sc.nextInt();
+        int step = sc.nextInt();
 
-        for (int i = number; i <= number; i++) {
-            for (int j = 1; j <= size; j++) {
+        for (int i = number; i <= number; i += step) {
+            for (int j = startNumber; j <= size; j += step) {
                 System.out.println(i + " * " + j + " = " + (i * j) + " ");
             }
             System.out.println();
         }
-
     }
 }
