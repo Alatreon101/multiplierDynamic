@@ -6,7 +6,7 @@ package com.dragon;
 
 import java.util.Scanner;
 
-public class MultiplicationTable {
+public class MultiplierDynamic {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
